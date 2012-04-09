@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title></title>
+	<style>
+	span.some-class {
+		font-size: 2em;
+		font-style: italic;
+	}
+	</style>
+</head>
+<body>
+
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	</p>
+	
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="src/jquery.styleWords.js"></script>
+
+
+<script>
+	$('p').styleWords(3, {
+		'class': 'some-class'
+	});
+</script>
+
+</body>
+</html>
