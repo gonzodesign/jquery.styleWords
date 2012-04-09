@@ -1,9 +1,9 @@
 {
   "name": "jquery.styleWords",
   "title": "jQuery Stylewords",
-  "description": "For the times when you wish that CSS had a :first-word(x)",
+  "description": "For the times when you wish that CSS had a :first-words(x)",
   "version": "0.1.0",
-  "homepage": "https://github.com/administrator/jquery.styleWords",
+  "homepage": "https://github.com/jeffreyway/jquery.styleWords",
   "author": {
     "name": "Jeffrey Way",
     "email": "jeffrey@jeffrey-way.com",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/administrator/jquery.styleWords.git"
+    "url": "git://github.com/jeffreyway/jquery.styleWords.git"
   },
   "bugs": {
-    "url": "https://github.com/administrator/jquery.styleWords/issues"
+    "url": "https://github.com/jeffreyway/jquery.styleWords/issues"
   },
   "licenses": [
     {
       "type": "GPL",
-      "url": "https://github.com/administrator/jquery.styleWords/blob/master/LICENSE-GPL"
+      "url": "https://github.com/jeffreyway/jquery.styleWords/blob/master/LICENSE-GPL"
     }
   ],
   "dependencies": {
