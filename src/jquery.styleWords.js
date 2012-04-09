@@ -43,8 +43,7 @@ var styleWords = {
 
 };
 
-
-
+// Create the plugin
 $.fn.styleWords = function(numWords, config) {
   var obj = Object.create(styleWords);
   return this.each(function() {
@@ -56,7 +55,5 @@ $.fn.styleWords.defaults = {
   tag: '<span>',
   'class': 'styleWords'
 };
-
-
 
 }(jQuery));

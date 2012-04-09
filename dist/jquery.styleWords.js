@@ -1,5 +1,5 @@
 /*! jQuery Stylewords - v0.1.0 - 2012-04-09
-* https://github.com/administrator/jquery.styleWords
+* https://github.com/jeffreyway/jquery.styleWords
 * Copyright (c) 2012 Jeffrey Way; Licensed GPL */
 
 (function($) {
@@ -39,8 +39,7 @@ var styleWords = {
 
 };
 
-
-
+// Create the plugin
 $.fn.styleWords = function(numWords, config) {
   var obj = Object.create(styleWords);
   return this.each(function() {
@@ -52,7 +51,5 @@ $.fn.styleWords.defaults = {
   tag: '<span>',
   'class': 'styleWords'
 };
-
-
 
 }(jQuery));
